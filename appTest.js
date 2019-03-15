@@ -19,8 +19,8 @@
 var atest = require('./app');
 var ret   = null;
 
-//ret = atest.gc('CN72M3Q11H',null);
-ret = atest.gep('CN72M3Q11H',null);
+//ret = atest.gc('10_CHAR_SN',null);
+ret = atest.gep('10_CHAR_SN',null);
 ret = atest.rnp(null,ret);
 
 console.log(ret);
